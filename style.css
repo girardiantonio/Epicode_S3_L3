@@ -55,3 +55,7 @@ ul {
   font-size: 20px;
   list-style-type: none;
 }
+
+li.completed {
+  text-decoration: line-through;
+}
