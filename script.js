@@ -28,3 +28,9 @@ function compElement() {
   this.classList.toggle("completed");
 }
 
+// Aggiungi evento per il tasto "Enter" nel campo di input
+taskInput.addEventListener("keypress", function(event) {
+  if (event.keyCode === 13) {
+    addElement();
+  }
+});
