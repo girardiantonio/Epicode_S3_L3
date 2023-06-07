@@ -8,19 +8,20 @@
     <title>To-Do List</title>
   </head>
   <body>
-    <h1>To-Do List</h1>
-    <div class="comands">
-      <h2>Guida Rapida comandi</h2>
-      <ul>
-        <li>Aggiungi elemento: Pulsante "Aggiungi"</li>
-        <li>Completa elemento: Click sull'elemento da completare</li>
-        <li>Rimuovere elemento: Doppio Click sull'elemento da eliminare</li>
-      </ul>
+    <div class="content">
+      <h1>To-Do List</h1>
+      <div class="comands">
+        <h2>Guida Rapida comandi</h2>
+        <ul>
+          <li>Aggiungi elemento: Pulsante "Aggiungi"</li>
+          <li>Completa elemento: Click sull'elemento da completare</li>
+          <li>Rimuovere elemento: Doppio Click sull'elemento da eliminare</li>
+        </ul>
+      </div>
+      <input type="text" id="taskInput" placeholder="Aggiungi una nota" />
+      <button id="addButton">Aggiungi</button>
+      <ul id="taskList"></ul>
     </div>
-    <input type="text" id="taskInput" placeholder="Aggiungi un compito" />
-    <button id="addButton">Aggiungi</button>
-    <ul id="taskList"></ul>
-
     <script src="script.js"></script>
   </body>
 </html>
