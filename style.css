@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 204px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+.comands {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
